@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "script": "dist/main.js",
+      "name": "assignment",
+      "max_memory_restart": "1G",
+      "cron_restart": "0 3 */1 * *",
+      "kill_timeout": 2000
+    }
+  ]
+}
