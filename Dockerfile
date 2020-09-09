@@ -5,8 +5,8 @@ COPY . .
 RUN npm add pm2 -g --unsafe-perm
 RUN npm install
 RUN npm run build
-RUN npm run start:prod
-EXPOSE 80
+CMD [ "pm2-runtime", "process.json" ]
 
+EXPOSE 80
 
 
