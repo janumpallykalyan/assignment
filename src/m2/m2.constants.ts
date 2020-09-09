@@ -1,0 +1,1 @@
+export const M2 = 'M2';
